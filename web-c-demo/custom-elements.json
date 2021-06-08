@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "tags": [
+    {
+      "name": "web-c-demo",
+      "description": "A component with a title and an action counter",
+      "properties": [
+        {
+          "name": "title",
+          "type": "String",
+          "description": "The title of your component",
+          "default": "Hey there"
+        },
+        {
+          "name": "counter",
+          "type": "Number",
+          "description": "An action counter",
+          "default": 0
+        }
+      ],
+      "events": [],
+      "slots": [],
+      "cssProperties": [
+        {
+          "name": "--web-c-demo-text-color",
+          "description": "Main Text Color",
+          "type": "Color"
+        }
+      ]
+    },
+    {
+      "name": "ah-button",
+      "description": "多类型按钮",
+      "properties": [
+        {
+          "name": "type",
+          "type": "String",
+          "description": "按钮类型",
+          "default": "primary"
+        },
+        {
+          "name": "icon",
+          "type": "Boolean",
+          "description": " icon图标按钮 类型",
+          "default": "heart"
+        },
+        {
+          "name": "shape",
+          "type": "String",
+          "description": "icon图标按钮 形状",
+          "default": "circle"
+        }
+      ],
+      "events": ["click"],
+      "slots": [],
+      "cssProperties": [
+        {
+          "name": "--themeBackground",
+          "description": "Main button background Color",
+          "type": "Color"
+        }
+      ]
+    }
+  ]
+}
